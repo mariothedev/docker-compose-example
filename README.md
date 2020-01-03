@@ -1,4 +1,8 @@
-![alt text](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png "Docker compose sample file"){:height="50%" width="50%"}
+![alt text](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png "Docker compose sample file")
+
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 
 
 # Sample docker-compose.yml file
