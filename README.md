@@ -1,7 +1,5 @@
-![alt text](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png "Docker compose sample file")
-
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="460" height="300" src="https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png" alt="Docker Compose sample file>
 </p>
 
 
