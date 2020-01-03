@@ -1,5 +1,5 @@
 Inline-style: 
-![](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png =100x)
+![](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png | width=100)
 
 
 # Sample docker-compose.yml file
