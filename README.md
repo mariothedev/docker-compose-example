@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png" alt="Docker Compose sample file">
+  <img width="260" src="https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png" alt="Docker Compose sample file">
 </p>
 
 
