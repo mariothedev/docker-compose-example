@@ -2,25 +2,26 @@ version: "3"
 services:
   mongo0:
     hostname: mongo0
-    container_name: mongo0
+    image: mongo
+    ports:
+      - 27017:27017
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
+  mongo1:
+    hostname: mongo1
+    image: mongo
+    ports:
+      - 27018:27017
+    restart: always
+    entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
+  mongo2:
+    hostname: mongo2
     image: mongo
     ports:
       - 27019:27017
     restart: always
     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
-  mongo1:
-    hostname: mongo1
-    container_name: mongo1
-    image: mongo
-    ports:
-      - 27020:27017
-    restart: always
-    entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
-  mongo2:
-    hostname: mongo2
-    container_name: mongo2
-    image: mongo
-    ports:
-      - 27021:27017
-    restart: always
-    entrypoint: [ "/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0" ]
+  redis0:
+    image: redis
+    ports: 
+      - 6379:6379
