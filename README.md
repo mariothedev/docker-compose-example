@@ -1,5 +1,5 @@
 Inline-style: 
-![alt text](https://storage.googleapis.com/my-newest-bucket-coinsparta/docker.jpg "Sample Docker Compose File")
+![alt text](https://storage.googleapis.com/my-newest-bucket-coinsparta/compose.png "Sample Docker Compose File")
 
 
 # Sample docker-compose.yml file
