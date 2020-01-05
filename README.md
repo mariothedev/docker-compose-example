@@ -8,14 +8,14 @@ Simple Docker compose file to bootstrap your project.
 
 
 
-### Fetch file:
----
-```
-curl https://raw.githubusercontent.com/mariothedev/docker-compose-sample-file/master/docker-compose.yml --output docker-compose.yml
-```
+
 
 ### MongoDB Master-Replica Example:
 ---
+##### Fetch file:
+```
+curl https://raw.githubusercontent.com/mariothedev/docker-compose-sample-file/master/docker-compose.yml --output docker-compose.yml
+```
 ```
 version: "3"
 services:
@@ -49,6 +49,10 @@ services:
 
 ### Persistent Redis Example:
 ---
+##### Fetch file:
+```
+curl https://raw.githubusercontent.com/mariothedev/docker-compose-sample-file/master/docker-compose.yml --output docker-compose.yml
+```
 ```
   redis0:
     image: redis
