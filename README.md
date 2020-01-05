@@ -3,8 +3,8 @@
 </p>
 
 
-# Sample docker-compose.yml file
-Simple Docker compose file to bootstrap your project.  
+# Docker Compose Examples:
+Simple Docker compose examples to bootstrap your project needs.  
 
 
 
@@ -17,7 +17,7 @@ Simple Docker compose file to bootstrap your project.
 
 
 
-### MongoDB Master-Replica Example:
+#### MongoDB Master-Replica Example:
 ---
 ##### Fetch file:
 ```
@@ -54,7 +54,7 @@ services:
 ```
 
 
-### Persistent Redis Example:
+#### Persistent Redis Example:
 ---
 ##### Fetch file:
 ```
