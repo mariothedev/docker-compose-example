@@ -14,7 +14,7 @@ Simple Docker compose file to bootstrap your project.
 curl https://raw.githubusercontent.com/mariothedev/docker-compose-sample-file/master/docker-compose.yml --output docker-compose.yml
 ```
 
-### Sample:
+### MongoDB Master-Replica Example:
 ---
 ```
 version: "3"
@@ -44,4 +44,16 @@ services:
     image: redis
     ports: 
       - 6379:6379
+```
+
+
+### Persistent Redis Example:
+---
+```
+  redis0:
+    image: redis
+    ports: 
+      - 6379:6379
+    restart: always
+    entrypoint: redis-server --appendonly yes
 ```
