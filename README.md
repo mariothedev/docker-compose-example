@@ -58,7 +58,7 @@ services:
 ---
 ##### Fetch file:
 ```
-curl https://raw.githubusercontent.com/mariothedev/docker-compose-examples/master/docker-compose.yml --output docker-compose.yml
+curl https://raw.githubusercontent.com/mariothedev/docker-compose-examples/master/redis.yml --output docker-compose.yml
 ```
 ```
   redis0:
